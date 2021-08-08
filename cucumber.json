@@ -3,12 +3,13 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-08T09:23:25.290Z",
+        "start_timestamp": "2021-08-08T09:29:32.152Z",
         "before": [
           {
             "result": {
-              "duration": 2730905000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat steps.Hook.InitializeTest(Hook.java:34)\n",
+              "duration": 2435000,
+              "status": "failed"
             },
             "match": {
               "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
@@ -22,8 +23,9 @@
         "after": [
           {
             "result": {
-              "duration": 74749000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat steps.Hook.TearDownTest(Hook.java:49)\n",
+              "duration": 1605000,
+              "status": "failed"
             },
             "match": {
               "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
@@ -35,14 +37,14 @@
         "steps": [
           {
             "result": {
-              "duration": 800643000,
-              "status": "passed"
+              "duration": 1856000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 478000,
-                  "status": "passed"
+                  "duration": 404000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -57,8 +59,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 242000,
-                  "status": "passed"
+                  "duration": 183000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -69,14 +71,14 @@
           },
           {
             "result": {
-              "duration": 227868000,
-              "status": "passed"
+              "duration": 136000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 957000,
-                  "status": "passed"
+                  "duration": 1269000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -91,8 +93,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 154000,
-                  "status": "passed"
+                  "duration": 143000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -117,14 +119,14 @@
           },
           {
             "result": {
-              "duration": 168017000,
-              "status": "passed"
+              "duration": 155000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 716000,
-                  "status": "passed"
+                  "duration": 575000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -139,8 +141,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 198000,
-                  "status": "passed"
+                  "duration": 122000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -151,14 +153,14 @@
           },
           {
             "result": {
-              "duration": 51371000,
-              "status": "passed"
+              "duration": 127000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 168000,
-                  "status": "passed"
+                  "duration": 365000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -173,8 +175,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 159000,
-                  "status": "passed"
+                  "duration": 125000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -186,12 +188,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-08T09:23:29.378Z",
+        "start_timestamp": "2021-08-08T09:29:32.215Z",
         "before": [
           {
             "result": {
-              "duration": 231224000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat steps.Hook.InitializeTest(Hook.java:34)\n",
+              "duration": 329000,
+              "status": "failed"
             },
             "match": {
               "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
@@ -205,8 +208,9 @@
         "after": [
           {
             "result": {
-              "duration": 74835000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat steps.Hook.TearDownTest(Hook.java:49)\n",
+              "duration": 555000,
+              "status": "failed"
             },
             "match": {
               "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
@@ -218,14 +222,14 @@
         "steps": [
           {
             "result": {
-              "duration": 306634000,
-              "status": "passed"
+              "duration": 258000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1662000,
-                  "status": "passed"
+                  "duration": 1230000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -240,8 +244,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 153000,
-                  "status": "passed"
+                  "duration": 395000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -252,14 +256,14 @@
           },
           {
             "result": {
-              "duration": 143652000,
-              "status": "passed"
+              "duration": 284000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 292000,
-                  "status": "passed"
+                  "duration": 1477000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -274,8 +278,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 206000,
-                  "status": "passed"
+                  "duration": 86000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -300,14 +304,14 @@
           },
           {
             "result": {
-              "duration": 85614000,
-              "status": "passed"
+              "duration": 92000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 574000,
-                  "status": "passed"
+                  "duration": 86000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -322,8 +326,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 166000,
-                  "status": "passed"
+                  "duration": 82000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -334,14 +338,14 @@
           },
           {
             "result": {
-              "duration": 318000,
-              "status": "passed"
+              "duration": 160000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 131000,
-                  "status": "passed"
+                  "duration": 80000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -356,8 +360,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 118000,
-                  "status": "passed"
+                  "duration": 121000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
