@@ -132,7 +132,7 @@
             <version>5.0.7</version>
         </dependency>
     </dependencies>
-<build>
+    <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
