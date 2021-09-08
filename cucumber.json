@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-08T09:29:32.152Z",
+        "start_timestamp": "2021-09-08T11:25:37.617Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat steps.Hook.InitializeTest(Hook.java:34)\n",
-              "duration": 2435000,
+              "duration": 2991000,
               "status": "failed"
             },
             "match": {
@@ -24,7 +24,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat steps.Hook.TearDownTest(Hook.java:49)\n",
-              "duration": 1605000,
+              "duration": 4301000,
               "status": "failed"
             },
             "match": {
@@ -37,13 +37,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1856000,
+              "duration": 2990000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 404000,
+                  "duration": 503000,
                   "status": "skipped"
                 },
                 "match": {
@@ -59,7 +59,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 183000,
+                  "duration": 403000,
                   "status": "skipped"
                 },
                 "match": {
@@ -71,13 +71,13 @@
           },
           {
             "result": {
-              "duration": 136000,
+              "duration": 314000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1269000,
+                  "duration": 390000,
                   "status": "skipped"
                 },
                 "match": {
@@ -93,7 +93,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 143000,
+                  "duration": 137000,
                   "status": "skipped"
                 },
                 "match": {
@@ -119,13 +119,13 @@
           },
           {
             "result": {
-              "duration": 155000,
+              "duration": 178000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 575000,
+                  "duration": 607000,
                   "status": "skipped"
                 },
                 "match": {
@@ -141,7 +141,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 122000,
+                  "duration": 150000,
                   "status": "skipped"
                 },
                 "match": {
@@ -153,13 +153,13 @@
           },
           {
             "result": {
-              "duration": 127000,
+              "duration": 145000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 365000,
+                  "duration": 2006000,
                   "status": "skipped"
                 },
                 "match": {
@@ -175,7 +175,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 125000,
+                  "duration": 129000,
                   "status": "skipped"
                 },
                 "match": {
@@ -188,12 +188,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-08T09:29:32.215Z",
+        "start_timestamp": "2021-09-08T11:25:37.696Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat steps.Hook.InitializeTest(Hook.java:34)\n",
-              "duration": 329000,
+              "duration": 636000,
               "status": "failed"
             },
             "match": {
@@ -209,7 +209,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat steps.Hook.TearDownTest(Hook.java:49)\n",
-              "duration": 555000,
+              "duration": 997000,
               "status": "failed"
             },
             "match": {
@@ -222,13 +222,13 @@
         "steps": [
           {
             "result": {
-              "duration": 258000,
+              "duration": 277000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1230000,
+                  "duration": 824000,
                   "status": "skipped"
                 },
                 "match": {
@@ -244,7 +244,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 395000,
+                  "duration": 553000,
                   "status": "skipped"
                 },
                 "match": {
@@ -256,13 +256,13 @@
           },
           {
             "result": {
-              "duration": 284000,
+              "duration": 319000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1477000,
+                  "duration": 138000,
                   "status": "skipped"
                 },
                 "match": {
@@ -278,7 +278,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 86000,
+                  "duration": 106000,
                   "status": "skipped"
                 },
                 "match": {
@@ -304,13 +304,13 @@
           },
           {
             "result": {
-              "duration": 92000,
+              "duration": 143000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 86000,
+                  "duration": 132000,
                   "status": "skipped"
                 },
                 "match": {
@@ -326,7 +326,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 82000,
+                  "duration": 127000,
                   "status": "skipped"
                 },
                 "match": {
@@ -338,13 +338,13 @@
           },
           {
             "result": {
-              "duration": 160000,
+              "duration": 112000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 80000,
+                  "duration": 115000,
                   "status": "skipped"
                 },
                 "match": {
@@ -360,7 +360,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 121000,
+                  "duration": 109000,
                   "status": "skipped"
                 },
                 "match": {

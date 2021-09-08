@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="3.17" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="3.257" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="10.0.2+13"/>
@@ -24,23 +24,22 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/apache-maven-3.8.1/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/usr/share/apache-maven-3.8.2/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/apache-maven-3.8.1/conf"/>
+    <property name="maven.conf" value="/usr/share/apache-maven-3.8.2/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="54.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.8.0-1039-azure"/>
-    <property name="library.jansi.path" value="/usr/share/apache-maven-3.8.1/lib/jansi-native"/>
+    <property name="os.version" value="5.8.0-1040-azure"/>
     <property name="user.home" value="/home/runner"/>
     <property name="user.timezone" value="Etc/UTC"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="10"/>
     <property name="user.name" value="runner"/>
-    <property name="java.class.path" value="/usr/share/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="/usr/share/apache-maven-3.8.2/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="10"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtestng.dtd.http=true"/>
@@ -50,9 +49,8 @@
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="10.0.2"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="java.vendor" value="Azul Systems, Inc."/>
-    <property name="maven.home" value="/usr/share/apache-maven-3.8.1"/>
+    <property name="maven.home" value="/usr/share/apache-maven-3.8.2"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2018-07-17"/>
     <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
@@ -61,7 +59,7 @@
     <property name="java.vendor.version" value="Zulu10.3+5"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="runScenario" classname="runner.TestRunner" time="0.234">
+  <testcase name="runScenario" classname="runner.TestRunner" time="0.287">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 </failure>
     <system-out><![CDATA[
@@ -80,7 +78,7 @@ Closing the browser : MOCK
 &amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario" classname="runner.TestRunner" time="0.03">
+  <testcase name="runScenario" classname="runner.TestRunner" time="0.039">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 </failure>
     <system-out><![CDATA[
